@@ -396,6 +396,7 @@ Using the `chmod` command.
   * 750</summary><br><b>
 
 <pre>
+The numbers are represented from binary, ie 111 is 7, 101 is 5, etc. 
 777 - You give the owner, group and other: Execute (1), Write (2) and Read (4); 4+2+1 = 7.
 644 - Owner has Read (4), Write (2), 4+2 = 6; Group and Other have Read (4).
 750 - Owner has x+r+w, Group has Read (4) and Execute (1); 4+1 = 5. Other have no permissions.
